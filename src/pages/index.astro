@@ -7,6 +7,9 @@
     margin: 0;
     background-color: black;
     color: white;
+    background-image: url("images/bg.avif");
+    background-repeat: repeat;
+    background-attachment: fixed;
   }
   .wrapper{
     margin: 0 auto;
@@ -21,8 +24,18 @@
     margin: auto;
     display: grid;
   }
+  .cards3{
+    margin: auto;
+    display: grid; 
+    padding: 50px;
+    grid-template-columns: 1fr 2fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-areas: "a1 a2";
+    grid-template-columns: repeat(auto-fit, min(200px, 1fr));
+  }
+  .a1 { grid-area: a1; }
+  .a2 { grid-area: a2; }
   .card {
-    background-color: black;
     align-self: center;
     min-height:max-content;
   }
@@ -30,6 +43,11 @@
     width: 100%;
     max-height: 1000px;
     object-fit: cover;
+  }
+  .card2 {
+    margin: auto;
+    display: grid;
+    max-width: 30%;
   }
   .s1 {
     max-width: 90%;
@@ -50,6 +68,12 @@
     padding-right: 2rem;
     font-size: 1rem;;
   }
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 </style>
 
 <html lang="en">
@@ -64,6 +88,7 @@
 		<title>PT. LGS TECHNOLOGIES INDONESIA</title>
 	</head>
 	<body>
+
     <div class="wrapper">
       <div class="cards">
         <div class="card">
@@ -82,6 +107,26 @@
         </div>
         <div class="card">
           <img src="images/hello.avif" alt="If this image dont show up it means your browser dont support avif image format">
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="cards3">
+        <div class="a1">
+          <img src="images/p1.avif" class="center" alt="If this image dont show up it means your browser dont support avif image format">
+          <p class="s2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar mattis nunc sed blandit libero volutpat sed cras ornare. Malesuada nunc vel risus commodo viverra. Enim blandit volutpat maecenas volutpat blandit aliquam. Eget dolor morbi non arcu risus. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. Ut faucibus pulvinar elementum integer enim. Egestas sed tempus urna et pharetra pharetra. Vitae tempus quam pellentesque nec nam. Tortor id aliquet lectus proin nibh nisl condimentum id. Cursus metus aliquam eleifend mi in. Enim nec dui nunc mattis. Velit laoreet id donec ultrices tincidunt arcu non.
+          </p>
+        </div>
+        <div class="a2">
+          <p class="s2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar mattis nunc sed blandit libero volutpat sed cras ornare. Malesuada nunc vel risus commodo viverra. Enim blandit volutpat maecenas volutpat blandit aliquam. Eget dolor morbi non arcu risus. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. Ut faucibus pulvinar elementum integer enim. Egestas sed tempus urna et pharetra pharetra. Vitae tempus quam pellentesque nec nam. Tortor id aliquet lectus proin nibh nisl condimentum id. Cursus metus aliquam eleifend mi in. Enim nec dui nunc mattis. Velit laoreet id donec ultrices tincidunt arcu non.
+            Amet aliquam id diam maecenas. Aliquam faucibus purus in massa tempor nec feugiat nisl pretium. Id diam vel quam elementum. Cras semper auctor neque vitae tempus quam pellentesque nec. Integer eget aliquet nibh praesent tristique magna sit amet purus. Libero justo laoreet sit amet. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Eget aliquet nibh praesent tristique magna. Vitae turpis massa sed elementum tempus egestas. Consequat id porta nibh venenatis cras sed felis eget. Fringilla phasellus faucibus scelerisque eleifend donec. Dui sapien eget mi proin.
+            Enim tortor at auctor urna. Aliquam faucibus purus in massa tempor nec feugiat. Elementum sagittis vitae et leo. Facilisis mauris sit amet massa vitae tortor condimentum lacinia. Viverra mauris in aliquam sem fringilla ut. Netus et malesuada fames ac turpis egestas sed tempus urna. Habitant morbi tristique senectus et netus et malesuada fames. Nullam vehicula ipsum a arcu cursus vitae congue. Senectus et netus et malesuada fames ac turpis egestas sed. Ut tellus elementum sagittis vitae et leo duis ut diam. Eu scelerisque felis imperdiet proin. Suspendisse sed nisi lacus sed viverra tellus in hac. Nulla facilisi nullam vehicula ipsum. Porttitor eget dolor morbi non arcu risus quis varius. Purus in mollis nunc sed id. Sit amet nulla facilisi morbi tempus iaculis urna id. Venenatis a condimentum vitae sapien pellentesque habitant.
+            In eu mi bibendum neque egestas congue. Neque viverra justo nec ultrices dui sapien eget mi proin. Dignissim diam quis enim lobortis scelerisque fermentum dui. Eget est lorem ipsum dolor sit. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. Orci a scelerisque purus semper eget duis at tellus at. Eu lobortis elementum nibh tellus molestie. Magna etiam tempor orci eu lobortis elementum nibh tellus. Rhoncus dolor purus non enim praesent elementum facilisis leo. Ac felis donec et odio pellentesque diam volutpat commodo. Est ante in nibh mauris cursus mattis. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Sed arcu non odio euismod lacinia at.
+            Facilisi etiam dignissim diam quis enim lobortis scelerisque. Viverra ipsum nunc aliquet bibendum enim facilisis. Blandit libero volutpat sed cras ornare arcu dui. Est lorem ipsum dolor sit amet consectetur adipiscing elit. Interdum varius sit amet mattis. Sed vulputate odio ut enim blandit. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Diam in arcu cursus euismod quis viverra nibh. Sit amet purus gravida quis blandit. Maecenas accumsan lacus vel facilisis. Amet dictum sit amet justo donec enim diam vulputate ut. Pellentesque habitant morbi tristique senectus et netus et. Proin sed libero enim sed faucibus. Aliquet nec ullamcorper sit amet risus nullam eget. Venenatis urna cursus eget nunc scelerisque. Iaculis at erat pellentesque adipiscing commodo elit. Tincidunt arcu non sodales neque sodales ut etiam.
+          </p>
         </div>
       </div>
     </div>
